@@ -1,2 +1,6 @@
 ## A4. Hide The Garbage
-### Lorem ipsum dolor sit amet, consectetur adipiscing elit
+### ¬идно только то, на что есть ссылки
+- `git gc` Ч удалить ненужные файлы и оптимизировать локальный репозиторий
+- `git clean` Ч удалить неотслеживаемые файлы из директории
+- `git reflog show <ref>` Ч показать лог действий со ссылкой
+- `git reflog` = `git reflog show HEAD` Ч показать лог действий с HEAD
